@@ -1,2 +1,8 @@
-# hitchhikerguide
-Herbert's Hitchhiker's Guide to the Web, Network, and Galaxy
+# Hitchhiker's Guide to Network, Web, and Galaxy
+
+Don't panic. 
+
+
+
+
+Herbert
