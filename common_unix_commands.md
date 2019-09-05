@@ -5,7 +5,7 @@
 Find the IP of all connected devices on the wi-fi network
 
 ```
-arp -a
+$ arp -a
 ```
 
 ## Server
