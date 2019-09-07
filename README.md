@@ -7,3 +7,5 @@ Here's [Herbert's guide](https://zire.github.io/Hitchhiker-Guide/):
 [Common Unix Commands](common_unix_commands.md)
 
 [Git Handbook](git_handbook.md)
+
+[Using Shortcuts in Excel on Mac](mac_shortcuts.md)
