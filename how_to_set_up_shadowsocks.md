@@ -215,3 +215,7 @@ Use `Global Mode` to route all traffic through Shadowsocks server. Use `Auto Pro
 [如何使用Linode vps来搭建自己shadowsocks服务！](https://steemit.com/vpn/@rickyshi/linode-vps-shadowsocks)
 
 [Shadowsocks Client List](https://shadowsocks.org/en/download/clients.html)
+
+***
+
+[Back to HitichHikder's Guide by Herbert](README.md)

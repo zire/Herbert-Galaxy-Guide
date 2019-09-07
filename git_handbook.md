@@ -7,3 +7,7 @@ $ git add .
 $ git commit -m "write something meaningful"
 $ git push
 ```
+
+***
+
+[Back to HitichHikder's Guide by Herbert](README.md)
