@@ -9,3 +9,7 @@ Here's [Herbert's guide](https://zire.github.io/Hitchhiker-Guide/):
 [Git Handbook](git_handbook.md)
 
 [Using Shortcuts in Excel on Mac](mac_shortcuts.md)
+
+[Quick Reference on VIM Editor](vim_quick_reference.md)
+
+[Home Cloud with Synology NAS](home_cloud_with_NAS.md)
