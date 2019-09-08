@@ -17,6 +17,8 @@
 
 [What Is A Virtual Machine? How Do I Put One On My NAS? And What Are The Pros And Cons](https://nascompares.com/2017/07/26/what-is-a-virtual-machine-how-do-i-put-one-on-my-nas-and-what-are-the-pros-and-cons/)
 
+[Which Synology NAS Should I Buy?](https://www.howtogeek.com/348700/which-synology-nas-should-i-buy/)
+
 ***
 
 [Back to HitichHikder's Guide by Herbert](README.md)
