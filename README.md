@@ -23,6 +23,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 [Using Shortcuts in Excel on Mac](mac_shortcuts.md)
 
 
-## Hacks
+## Hacks or Tricks
 
 [Migrate Outlook Emails to Gmail](migrate_outlook_email_to_gmail.md)
+
+[Create Table of Content or Appendix in Word for Mac](create_table_of_content_in_Word.md)
