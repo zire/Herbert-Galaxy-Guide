@@ -1,6 +1,6 @@
 # Herbert's Guide to Mac, Network, Web and the Galaxy
 
-Here's [Herbert's guide](https://zire.github.io/Hitchhiker-Guide/):
+Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 ## Network
 
