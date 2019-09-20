@@ -208,6 +208,12 @@ Enter the server IP address for the server (Digital Ocean droplet), the port num
 
 Use `Global Mode` to route all traffic through Shadowsocks server. Use `Auto Proxy Mode` to route traffice according to websites listed in the PAC list. 
 
+## Testing Tools
+
+Ping test to see if an IP address is blocked in China: [https://tools.ipip.net/ping.php](https://tools.ipip.net/ping.php)
+
+Ping test to see if IP + port still works: [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
+
 ## References
 
 [Connecting to DigitalOcean Server to Setup Shadowsocks](https://www.vpndada.com/how-to-setup-a-shadowsocks-server-on-digitalocean/)
