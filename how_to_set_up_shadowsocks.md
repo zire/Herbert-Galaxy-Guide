@@ -210,9 +210,15 @@ Use `Global Mode` to route all traffic through Shadowsocks server. Use `Auto Pro
 
 ## Testing Tools
 
-Ping test to see if an IP address is blocked in China: [https://tools.ipip.net/ping.php](https://tools.ipip.net/ping.php)
+TCP usually has port 22, which is used by SSH. There are two protocols for ping, TCP and ICMP. It's possible that an IP can be ping-ed through ICMP protocol, but it cannot be SSH-ed because TCP has been blocked.
 
-Ping test to see if IP + port still works: [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
+Ping test A to see if an IP address is blocked in China: [https://tools.ipip.net/ping.php](https://tools.ipip.net/ping.php). If there is no packet loss in US sites but close to 100% loss in China sites, then this IP is blocked.
+
+Ping test B to see if the IP + port works from outside of China: [https://www.yougetsignal.com/tools/open-ports/](https://www.yougetsignal.com/tools/open-ports/). 
+
+Ping test C to see if the same IP + port works from within China: [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
+
+If this IP + port is `open` in B, but `closed` in C, then pretty certainly this IP has been blocked. 
 
 ## References
 
