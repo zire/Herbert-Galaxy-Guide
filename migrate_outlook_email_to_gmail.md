@@ -14,7 +14,7 @@ Buy this application, [OLM Converter Pro](https://www.olmconverterpro.com/).
 
 Open the olm file with OLM Converter Pro. Select only the `YYYYMM` folder. In `Convert To:` option, select `Apple Mail, Address Book, Calendar`. Start the conversion. This will turn the olm file into a folder that has one mbox file for each email sub-folder. 
 
-![OLM Converter Pro](assets/img/convert_olm.png)
+![OLM Converter Pro](https://galaxy-guide.s3-ap-northeast-1.amazonaws.com/convert_olm.png)
 
 ## Set up Thunderbird and configure new local folders
 
