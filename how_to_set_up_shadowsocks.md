@@ -198,7 +198,7 @@ $ ssserver -c /etc/shadowsocks.json -d start
 
 Shadowsocks' official page has listed popular clients on various platforms:
 
-![Shadowsocks client list](assets/img/shadowsocks_clients.png)
+![Shadowsocks client list](https://galaxy-guide.s3-ap-northeast-1.amazonaws.com/shadowsocks_clients.png)
 
 I use this one [Shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help) and the current latest version is `ShadowsocksX-2.6.3.dmg`
 

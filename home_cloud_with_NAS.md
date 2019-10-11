@@ -12,7 +12,7 @@ I placed an order on Tmall for a 918+ with 2 additional 4TB WD Red HDD and 4GB a
 
 The first important task was to migrate the data from existing 215j to the new shining 918+. This was complicated, tricky, dangerous, and ultimately, smooth. Synology has a [comprehensive guide on 3 methods](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/General_Setup/How_to_migrate_between_Synology_NAS_DSM_6_0_and_later), HDD Migration, Migration via Migration Assistant, and Migration via Hyper Backup. According to this chart, HDD migration is not available in my case, as my source is a J Series and my target is a Plus Series.
 
-![synology hdd migration](assets/img/synology_hdd_migration.png)
+![synology hdd migration](https://galaxy-guide.s3-ap-northeast-1.amazonaws.com/synology_hdd_migration.png)
 
 According to [this Synology article](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/Management/Which_Synology_NAS_models_does_Migration_Assistant_Support), the second mthod with Migration Assistant is not available to me either as 215j is not on the list. 
 
@@ -20,7 +20,7 @@ I was left with only Option 3 - Hyper Backup. This is a challenging path - I don
 
 Encouraged by some online blog articles, I took on Option 1. I removed the 2 HDDs from 215j, placed them in the same slot (drive 1 and driver 2 on 918+), and powered up 918+. Miraculously, 918+ recognized the disks from 215j! After all, we don't have to follow Synology's guide to each word. 
 
- ![synology migration](assets/img/synology_migrate.png)
+ ![synology migration](https://galaxy-guide.s3-ap-northeast-1.amazonaws.com/synology_migrate.png)
 
 The rest of the migration was a breeze and completed fairly quickly. All the data got on 918+ once and for all, along with the shared folders and user configurations. 918+ just thoroughly took over 215j. 
 
@@ -43,7 +43,7 @@ In the past when on 2-bay 215j I never paid much attention to the fine differenc
 
 It can take a very long time for Synology to complete parity consistency check. 
 
-![Synology parity consistency check](assets/img/synology_parity_check.png)
+![Synology parity consistency check](https://galaxy-guide.s3-ap-northeast-1.amazonaws.com/synology_parity_check.png)
 
 Synology's user interface doesn't provide much useful info other than a spinning wheel. It's difficult to estimate how long the whole process will finish. For many users, this process is measured not in hours, but in days or even weeks. 
 
