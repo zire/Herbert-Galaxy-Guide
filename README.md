@@ -8,6 +8,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Home Cloud with Synology NAS](home_cloud_with_NAS.md)
 
+[Change Storage Pool, Volume, RAID Type and Linix on Synology 918+](storage_pool_volume_raid_synology.md)
+
 ## Web
 
 [Common Unix Commands](common_unix_commands.md)
