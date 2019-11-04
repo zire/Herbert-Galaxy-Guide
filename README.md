@@ -14,6 +14,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Common Unix Commands](common_unix_commands.md)
 
+[Use Mutt/Neomutt for Email](email_with_mutt.md)
+
 ## Programming
 
 [Git Handbook](git_handbook.md)
