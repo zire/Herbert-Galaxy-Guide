@@ -16,6 +16,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Use Mutt/Neomutt for Email](email_with_mutt.md)
 
+[Nix as Package Manager](nix_as_package_manager.md)
+
 ## Programming
 
 [Git Handbook](git_handbook.md)
