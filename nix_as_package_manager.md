@@ -4,7 +4,6 @@ Download Nix, the Purely Functional Package Manager, from its [official site](ht
 
 ```
 $ curl https://nixos.org/nix/install | sh
-
 ```
 
 From its [Nix Package Manager Manual](https://nixos.org/nix/manual/), a few frequent commands are the following.
