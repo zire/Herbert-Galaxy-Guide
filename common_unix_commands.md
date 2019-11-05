@@ -19,6 +19,32 @@ $ netstat -nr
 
 ## Shell
 
+### Copy files with scp
+
+When you're on a local computer and try to download a file from a remote server:
+
+```
+$ scp username@remote:/file/to/send /where/to/put
+```
+
+When you're on a local computer and try to send a file from local computer to a remote server:
+
+```
+$ scp /file/to/send username@remote:/where/to/put
+```
+
+`scp` can also send files between two remote hosts:
+
+```
+$ scp username@remote_1:/file/to/send username@remote_2:/where/to/put
+```
+
+### Sync files with rsync
+
+```
+$ rsync -avzh --stats --progress remoteuser@remoteip  localpath
+```
+
 ### File permissions
 
 The three digits of the `chmod` code set permissins for these groups in this order:
