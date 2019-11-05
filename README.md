@@ -14,8 +14,6 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Common Unix Commands](common_unix_commands.md)
 
-[Use Mutt/Neomutt for Email](email_with_mutt.md)
-
 [Nix as Package Manager](nix_as_package_manager.md)
 
 ## Programming
@@ -27,7 +25,6 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 ## Mac
 
 [Using Shortcuts in Excel on Mac](mac_shortcuts.md)
-
 
 ## Hacks or Tricks
 
