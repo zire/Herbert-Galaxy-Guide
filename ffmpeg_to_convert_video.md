@@ -1,10 +1,17 @@
 # Convert Video/Audio Files with ffmpeg
 
-Convert video file without re-encoding, use `copy` flag. Re-encoding will take a very long time.
+Convert video file without re-encoding, use `copy` flag. Re-encoding will take a very long time. Use `map` to map all streams from input to output.
 
 ```
-$ ffmpeg -i Cars.2006.mkv -vcodec copy -acodec copy Cars.2006.mp4
+$ ffmpeg -i Cars.2006.mkv -vcodec copy -acodec copy -map 0 Cars.2006.mp4
 ```
+
+Say, there are 3 audio tracks on the input, in order to keep all 3 tracks on the output, 
+
+```
+$ ffmpeg -i in.mp4 -vcodec copy -c:a copy -map 0:0 -map 0:1 -map 0:2 out.mp4
+```
+
 To [batch-convert multiple media files into another format with ffmpeg](https://stackoverflow.com/questions/5784661/how-do-you-convert-an-entire-directory-with-ffmpeg):
 
 ```
@@ -89,7 +96,11 @@ $ ffmpeg -i video.mp4 -i subtitles.srt -c:v copy -c:a copy -preset veryfast -c:s
 
 ## References
 
+[Official ffmpeg site](http://ffmpeg.org/)
+
 [ffmpeg converting from mkv to mp4 without re-encoding](https://stackoverflow.com/questions/40077681/ffmpeg-converting-from-mkv-to-mp4-without-re-encoding)
+
+[FFmpeg not copying all audio streams](https://stackoverflow.com/questions/37820083/ffmpeg-not-copying-all-audio-streams)
 
 [The Complete Guide for Using ffmpeg in Linux](https://itsfoss.com/ffmpeg/)
 
