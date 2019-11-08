@@ -1,6 +1,6 @@
 # Convert Video/Audio Files with ffmpeg
 
-Use `ffmpeg` is probably the easiest method. 
+Convert video file without re-encoding, use `copy` flag. Re-encoding will take a very long time.
 
 ```
 $ ffmpeg -i Cars.2006.mkv -vcodec copy -acodec copy Cars.2006.mp4
@@ -38,7 +38,7 @@ Display video info
 $ ffmpeg -i video_file.mp4 -hide_banner
 ```
 
-Convert media format
+Convert media format. This will trigger re-encoding, which can take quite a long time.
 
 ```
 $ ffmpeg -i video_input.mp4 video_output.avi
