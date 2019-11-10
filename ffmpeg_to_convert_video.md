@@ -104,6 +104,12 @@ $ ffmpeg -i video.mp4 -i subtitles.srt -c:v copy -c:a copy -preset veryfast -c:s
 
 [The Complete Guide for Using ffmpeg in Linux](https://itsfoss.com/ffmpeg/)
 
+[Handbrake settings to convert MKV to MP4 while retaining the original quality](https://superuser.com/questions/472420/handbrake-settings-to-convert-mkv-to-mp4-while-retaining-the-original-quality)
+
+[What is a Codec (e.g. DivX?), and how does it differ from a File Format (e.g. MPG)?](https://superuser.com/questions/300897/what-is-a-codec-e-g-divx-and-how-does-it-differ-from-a-file-format-e-g-mp/300997#300997)
+
+
+
 ***
 
 [Back to HitichHikder's Guide by Herbert](README.md)
