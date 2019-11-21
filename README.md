@@ -22,6 +22,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Quick Reference on VIM Editor](vim_quick_reference.md)
 
+[Quick Reference for PostgreSQL](postgresql_guide.md)
+
 ## Mac
 
 [Using Shortcuts in Excel on Mac](mac_shortcuts.md)
