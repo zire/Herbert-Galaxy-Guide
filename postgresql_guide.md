@@ -115,6 +115,18 @@ Or view data with selected columns only
 SELECT col_first, col_sec FROM my_table
 ```
 
+Dump the PostgreSQL database into a local file for later restore needs. At console prompt, 
+
+```
+pg_dump db_name > outfile
+```
+
+To restore the database from the dump file
+
+```
+psql db_name < infile
+```
+
 ## Queries in PostgreSQL
 
 Use `WHERE` to display the records that meet certain condition
