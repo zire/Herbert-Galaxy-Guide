@@ -165,6 +165,18 @@ ORDER BY
 ```
 Without `DESC`, by default the result will be displayed in ascending order, or `ASC`. 
 
+Use `LIMIT` to only view a portion of all the rows
+
+```
+SELECT * FROM my_table LIMIT 5;
+```
+
+Or use `OFFSET` to skip that many rows before returning rows
+
+```
+SELECT * FROM my_table OFFSET 5;
+```
+
 ## Import Excel Data into a Table
 
 1. Save the Excel data file into `csv` format, delimited by comma. Say, this raw data file contains 6 columns. 
