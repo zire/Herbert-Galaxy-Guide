@@ -127,6 +127,14 @@ To restore the database from the dump file
 psql db_name < infile
 ```
 
+To displace numbers with 1000 separator, 
+
+```
+\pset numericlocale
+```
+
+To make it permanent, add `\pset numericlocale` into `~/.psqlrc`. To turn it off, `\pset numericlocale off`. 
+
 ## Queries in PostgreSQL
 
 Use `WHERE` to display the records that meet certain condition
@@ -177,6 +185,12 @@ Or use `OFFSET` to skip that many rows before returning rows
 SELECT * FROM my_table OFFSET 5;
 ```
 
+Search for all records where NAME contains `dance`. Use `%` as the wild card character. 
+
+```
+SELECT * FROM my_table WHERE customer_name LIKE '%dance%';
+```
+
 ## Import Excel Data into a Table
 
 1. Save the Excel data file into `csv` format, delimited by comma. Say, this raw data file contains 6 columns. 
@@ -221,6 +235,8 @@ For string, use `text` rather than `char(n)`, or `varchar(n)`, as suggested by [
 ## Reference
 
 [Official PostgreSQL 11.6 Documentation](https://www.postgresql.org/docs/11/index.html)
+
+[Tutorial Point - PostgreSQL](https://www.tutorialspoint.com/postgresql/index.htm)
 
 [table-naming-dilemma-singular-vs-plural-names](https://stackoverflow.com/questions/338156/table-naming-dilemma-singular-vs-plural-names)
 
