@@ -100,6 +100,12 @@ Download a file from URL
 $ curl -O some_URL_address_for_download_file
 ```
 
+Clear a messy screen
+
+```
+$ clear
+```
+
 ## Copying & Syncing
 
 When you're on a local computer and try to download a file from a remote server:
