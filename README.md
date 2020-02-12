@@ -10,6 +10,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Change Storage Pool, Volume, RAID Type and install Linux on Synology 918+](storage_pool_volume_raid_synology.md)
 
+[Back Up Files from NAS to AWS S3 Glacier](glacier_backup_on_NAS.md)
+
 ## Web
 
 [Common Unix Commands](common_unix_commands.md)
