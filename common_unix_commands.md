@@ -82,6 +82,12 @@ Find out the size of each subdirectory in `folder-name`
 $ du -h folder-name
 ```
 
+Display size of subfolders in ascending order
+
+```
+$ du -sh Downloads/* | sort -h
+```
+
 Display current `PATH`
 
 ```
