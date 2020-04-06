@@ -12,6 +12,8 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Back Up Files from NAS to AWS S3 Glacier](glacier_backup_on_NAS.md)
 
+[Fix Time Machine Backup Issue on NAS](fix_time_machine_backup_issue.md)
+
 ## Web
 
 [Common Unix Commands](common_unix_commands.md)
