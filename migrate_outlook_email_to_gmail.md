@@ -48,6 +48,18 @@ Thunderbird often generates an error message "connection to imap.gmail.com timed
 
 5. Upload the small-sized emails first. It appears that, the bigger the uploaded email size, the more fragile the connection would be. It's advisible to sort emails by size in local Thunderbird folders and upload the smaller emails first. 
 
+## Move Outlook Folder Files on Mac
+
+Moving folder files in Outlook for Mac 2016.16.23 takes a bit of work. 
+
+The message files are stored in this location:
+
+`/Users/me/Library/Group Containers/UBF8T346G9.Office/Outlook/Outlook 15 Profiles/Main Profile/Data`
+
+## Reference
+
+[Stack Overflow: Where does Mac Outlook 2016 stores Mails (On my Mac)](https://superuser.com/questions/1152550/where-does-mac-outlook-2016-stores-mails-on-my-mac)
+
 ***
 
 [Back to HitichHikder's Guide by Herbert](README.md)
