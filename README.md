@@ -20,7 +20,7 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
 [Nix as Package Manager](nix_as_package_manager.md)
 
-[Establish ssh access](ssh_access.md)
+[Establish SSH access](ssh_access.md)
 
 ## Programming
 
