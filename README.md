@@ -47,3 +47,5 @@ Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 [Convert Video/Audio Files with ffmpeg](ffmpeg_to_convert_video.md)
 
 [Add Line Number in Word Doc on Mac](line_number_in_word.md)
+
+[Zero Inbox on Mac](zero_inbox_email.md)
