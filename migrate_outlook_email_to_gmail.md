@@ -18,7 +18,7 @@ Open the olm file with OLM Converter Pro. Select only the `YYYYMM` folder. In `C
 
 ## Set up Thunderbird and configure new local folders
 
-Install Thunderbird add-on `ImportExportTools NG` by Christopher Leidigh. The latest version is 4.0.4 as of April 2020. Restart Thunderbird.
+Install Thunderbird add-on [ImportExportTools NG](https://addons.thunderbird.net/en-us/thunderbird/addon/importexporttools-ng/) by Christopher Leidigh. The latest version is 4.0.4 as of April 2020. Restart Thunderbird.
 
 Right click to open the menu that shows `ImportExportTools`, select `Import mbox file` and `Import directly one or more mbox files`. In the dialog window for selecting file, select the mbox file in `TextEdit` format. 
 
