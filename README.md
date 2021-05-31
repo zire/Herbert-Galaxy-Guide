@@ -2,6 +2,8 @@
 
 Here's [Herbert's guide](https://zire.github.io/Herbert-Galaxy-Guide/):
 
+Dive in!
+
 ## Network
 
 [How To Set Up Shadowsocks](how_to_set_up_shadowsocks.md)
